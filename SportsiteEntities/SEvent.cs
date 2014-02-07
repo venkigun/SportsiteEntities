@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using System.IO;
 
 namespace SportsiteEntities
 {
-
     public class SEvent
     {
         public int Id { get; set; }
